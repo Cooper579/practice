@@ -33,5 +33,12 @@ trtl.setposition(-60,85)
 trtl.pendown()
 star(20)
 
+def draw_axis():
+  trtl.pendown()
+  trtl.forward(200)
+  trtl.backward(200)
+
+draw_axis()
+
 wn = trtl.Screen()
 wn.mainloop()
